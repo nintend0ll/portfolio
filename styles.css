@@ -35,6 +35,7 @@ h1 {
 }
 
 h2 {
+    color: #a2d2ff;
     font-size: 1.5rem;
     font-weight: 300;
     font-family: 'Playpen Sans', sans-serif;
@@ -157,7 +158,7 @@ section {
 }
 
 .project:hover {
-    border-bottom: 1px solid #a2d2ff;
+    border-bottom: 1px solid #bde0fe;
     transform: translateY(-2px);
     opacity: 0.95;
 }
