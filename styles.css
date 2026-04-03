@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+
+@font-face {
+    font-family: "Pixeboy";
+    src: local("Pixeboy"),
+        url("C:/Windows/Fonts/Pixeboy.ttf") format("truetype");
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20vw;
+    background: #fff;
+    color: #1a1a1a;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    font-family: "Pixeboy";
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Playpen Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+#projects h2 {
+    font-family: "Pixeboy";
+    font-size: 1.8rem;
+}
+
+#projects h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#projects h2 a:hover {
+    color: #9b72cf;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: 'Playpen Sans', sans-serif;
+}
+
+section {
+    margin: 40px 0;
+    padding-bottom: 30px;
+}
+
+#about {
+    margin: 30px 0 50px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #999;
+}
+
+#about h2 {
+    font-family: "Pixeboy";
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#about h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#about h2 a:hover {
+    color: #9b72cf;
+    text-decoration: underline;
+}
+
+#about p {
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Pixeboy";
+    margin: 0;
+}
+
+.project h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project h3 a:hover {
+    color: #9b72cf;
+    text-decoration: underline;
+}
+
+.project-tag {
+    font-size: 0.85rem;
+    color: #999;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.project a {
+    font-size: 1.5rem;
+    color: #555;
+    text-decoration: underline;
+}
