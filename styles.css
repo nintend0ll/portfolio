@@ -21,6 +21,10 @@ body {
     padding: 60px 20px;
 }
 
+::selection {
+    background: #e0b1cb;
+}
+
 h1 {
     color: #e0b1cb;
     font-size: 2.8rem;
@@ -65,7 +69,7 @@ p {
 }
 
 section {
-    margin: 30px 0;
+    margin: 40px 0;
     padding-bottom: 30px;
 }
 
@@ -92,13 +96,14 @@ section {
 }
 
 .project {
+    border-bottom: 1px solid #eee;
     display: flex;
     flex-direction: column;
     gap: 8px;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #ddd;
     padding: 16px 0;
+    transition: all 0.2s ease;
 }
 
 .project:last-child {
@@ -120,6 +125,9 @@ section {
     font-weight: 400;
     font-family: "Pixeboy";
     margin: 0;
+    letter-spacing: 0.5px;
+    transform: translateY(0);
+    transition: transform 0.2s ease;
 }
 
 .project a {
@@ -136,6 +144,7 @@ section {
 .project h3 a:hover {
     color: #9b72cf;
     text-decoration: underline;
+    transform: translateY(-2px);
 }
 
 .project-tag {
@@ -145,7 +154,14 @@ section {
     white-space: nowrap;
 }
 
+.project:hover {
+    border-bottom: 1px solid #a2d2ff;
+    transform: translateY(-3px);
+}
 
+html {
+    scroll-behavior: smooth;
+}
 
 @media (max-width: 600px) {
     body {
